@@ -30,12 +30,12 @@
 	<div class="header-w3ls-agileinfo">
 		<div class="wthree_agile_top_header">
 			<div class="logo-agileits">
-				<h1><a href="index.html"><span>Student</span>Fund <i class="fa fa-graduation-cap" aria-hidden="true"></i></a></h1>
+				<h1><a href="./"><span>Student</span>Fund <i class="fa fa-graduation-cap" aria-hidden="true"></i></a></h1>
 			</div>
 			<div class="agileits_w3layouts_sign_in">
 				<ul>
-					<li><a class="sign" href="#" data-toggle="modal" data-target="#myModal2" >Sign In</a></li>
-					<li><a class="signup" href="#" data-toggle="modal" data-target="#myModal3" >Sign Up</a></li>
+					<li><a class="sign" href="login" >Sign In</a></li>
+					<li><a class="signup" href="register" >Register</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
@@ -64,7 +64,7 @@
 								<li><a href="./" class="hvr-rectangle-out">Home</a></li>
 								<li><a href="path" class="hvr-rectangle-out">Path</a></li>
 								<li><a href="sponsor" class="hvr-rectangle-out">Sponsor</a></li>
-								<li class="active"><a href="contact">Contact</a></li>
+								<li><a href="contact">Contact</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -73,65 +73,8 @@
 		</div>
 	</div>
 		<!-- //header -->
-		<!-- Modal1 -->
-		<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
-			<div class="modal-dialog">
-				<!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<div class="signin-form profile">
-							<h3 class="agileinfo_sign">Sign In</h3>	
-							<div class="login-form">
-								<form action="#" method="post">
-									<input type="text" name="email" placeholder="E-mail" required="">
-									<input type="password" name="password" placeholder="Password" required="">
-									<div class="tp">
-										<input type="submit" value="Sign In">
-									</div>
-								</form>
-							</div>
-							<div class="login-social-grids">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-rss"></i></a></li>
-								</ul>
-							</div>
-							<p><a href="#" data-toggle="modal" data-target="#myModal3" > Don't have an account?</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- //Modal1 -->	
-		<!-- Modal2 -->
-		<div class="modal fade" id="myModal3" tabindex="-1" role="dialog">
-			<div class="modal-dialog">
-				<!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<div class="signin-form profile">
-							<h3 class="agileinfo_sign">Sign Up</h3>
-							<div class="login-form">
-								<form action="#" method="post">
-									<input type="text" name="name" placeholder="Username" required="">
-									<input type="email" name="email" placeholder="Email" required="">
-									<input type="password" name="password" placeholder="Password" required="">
-									<input type="password" name="password" placeholder="Confirm Password" required="">
-									<input type="submit" value="Sign Up">
-								</form>
-							</div>
-							<p><a href="#"> By clicking register, I agree to your terms</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- //Modal2 -->
-		<hr>	
-			           <!--  Login Form -->
+		<hr>
+		<!--  Login Form -->
            <section>
             <div class="container cregister">
               <div class="title"><h2>COMPLETE REGISTRATION</h2></div>
@@ -176,7 +119,29 @@
                       <option value="divorce">Divorce</option>
                     </select>
                   </div>
-                  <div class="account form-group"><h5>Academy Detail</h5></div>
+                  <div class="left form-group">
+                    <p>Date of Birth: </p>
+                    <input type="Date" name="date">
+                  </div>
+                  <div class="right form-group">
+                    <p>Home Address:</p>
+                    <input type="address" name="address" placeholder="Home Address">
+                  </div>
+                  <div class="left form-group">
+                    <p>State of Orgin</p>
+                    <select name="" id="">
+                      <option value="" disabled="" selected="">Select State of origin</option>
+                    </select>
+                  </div>
+                  <div class="right form-group">
+                    <p>L.G.A</p>
+                    <select name="" id="">
+                      <option value="" disabled="" selected="">Select L.G.A</option>
+                      <option value=""></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="account form-group"><h3>Academy Detail</h3></div>
                   <div class="left">
                     <p>Matric Number</p>
                     <input type="text" name="matric" required="" placeholder="Matric Number">
@@ -252,6 +217,18 @@
                     </select>
                   </div>
                   <div class="right form-group">
+                    <p>Field Discipline:</p>
+                    <select name="" id="" required="">
+                      <option value="" disabled="" selected="">Select Field of Discipline</option>
+                      <option value="">Art</option>
+                      <option value="">Science</option>
+                    </select>
+                  </div>
+                  <div class="left form-group">
+                    <p>JAMB Reg</p>
+                    <input type="text" name="jamb" placeholder="Jamb Registration Number" required="">
+                  </div>
+                  <div class="right form-group">
                     <p>Sponsor</p>
                     <select name="" id="" required="">
                       <option value="" disabled="" selected="">Select Sponsor</option>
@@ -261,7 +238,7 @@
                     </select>
                   </div>
                   <div class="clear"></div>
-                  <div class="account"><h5>Account Detail</h5></div>
+                  <div class="account"><h3>Account Detail</h3></div>
                   <div class="left form-group">
                     <p>Bank:</p>
                     <select name="" id="" required="">
@@ -341,6 +318,7 @@
 			<!-- start-smoth-scrolling -->
 			<script src="js/jzBox.js"></script>
 			<!-- Countdown-Timer-JavaScript -->
+      <!-- Calendar -->
 			<script src="js/simplyCountdown.js"></script>
 			<script>
 				var d = new Date(new Date().getTime() + 948 * 120 * 120 * 2000);

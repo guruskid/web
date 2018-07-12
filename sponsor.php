@@ -30,12 +30,12 @@
 	<div class="header-w3ls-agileinfo">
 		<div class="wthree_agile_top_header">
 			<div class="logo-agileits">
-				<h1><a href="index.html"><span>Student</span>Fund <i class="fa fa-graduation-cap" aria-hidden="true"></i></a></h1>
+				<h1><a href="./"><span>Student</span>Fund <i class="fa fa-graduation-cap" aria-hidden="true"></i></a></h1>
 			</div>
 			<div class="agileits_w3layouts_sign_in">
 				<ul>
-					<li><a class="sign" href="#" data-toggle="modal" data-target="#myModal2" >Sign In</a></li>
-					<li><a class="signup" href="#" data-toggle="modal" data-target="#myModal3" >Sign Up</a></li>
+					<li><a class="sign" href="login" >Sign In</a></li>
+					<li><a class="signup" href="register">Register</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>

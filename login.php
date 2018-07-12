@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CONTACT</title>
+<title>LOGIN</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -62,7 +62,7 @@
 								<li><a href="./" class="hvr-rectangle-out">Home</a></li>
 								<li><a href="path" class="hvr-rectangle-out">Path</a></li>
 								<li><a href="sponsor" class="hvr-rectangle-out">Sponsor</a></li>
-								<li class="active"><a href="contact">Contact</a></li>
+								<li><a href="contact">Contact</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -70,73 +70,25 @@
 			</div>
 		</div>
 	</div>
-		<!-- //header -->	
-		<hr>	
-			
-			<!-- contact -->
-			<div class="contact" id="contact">
-				<div class="container">
-					<div class="w3ls-heading">
-						<h3>Get In Touch</h3>
-						<p class="sub">Morbi in dui pretium, finibus sapien vel.</p>
-					</div>
-					<div class="w3layouts-grids">
-						<div class="col-md-4 contact-left">
-							<div class="contact-info">
-								<div class="contact-info-left">
-									<i class="fa fa-map-marker" aria-hidden="true"></i>
-								</div>
-								<div class="contact-info-right">
-									<h5>Address</h5>
-									<p>Eiusmod Tempor inc<br>
-										<span>1St Golden Place,</span>
-										Los Angeles 1256
-									</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="contact-info">
-								<div class="contact-info-left">
-									<i class="fa fa-phone-square" aria-hidden="true"></i>
-								</div>
-								<div class="contact-info-right">
-									<h5>Mobile</h5>
-									<ul>
-										<li>+1 234 567 8901</li>
-										<li>+1 345 678 9012</li>
-									</ul>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="contact-info">
-								<div class="contact-info-left">
-									<i class="fa fa-envelope" aria-hidden="true"></i>
-								</div>
-								<div class="contact-info-right">
-									<h5>E-Mail</h5>
-									<ul>
-										<li><a href="mailto:example@mail.com">mail@example.com</a></li>
-										<li><a href="mailto:example@mail.com">example@mail.com</a></li>
-									</ul>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div class="col-md-8 contact-form">
-							<form action="#" method="post">
-								<input type="text" name="Name" placeholder="Name" required="">
-								<input type="email" class="email" name="Email" placeholder="Email" required="">
-								<div class="clearfix"> </div>
-								<input type="text" class="phone" name="phone" placeholder="Phone Number" required="">
-								<textarea placeholder="Message" name="Message" required=""></textarea>
-								<input type="submit" value="SUBMIT">
-							</form>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-			</div>
-			<!-- //contact -->
+		<!-- //header -->
+		<hr>
+           <!--  Login Form -->
+
+            <div class="container login1">
+            	<div class="title"><h2>Login</h2></div>
+            	<div class="formBox">
+            		<form action="">
+            			<p>Email: </p>
+            			<input type="email" name="email" placeholder="Email Address">
+            			<p>Password: </p>
+            			<input type="password" name="password" placeholder="Password">
+            			<input type="submit" name="submit" value="Sign In">
+            			<a href="#">Forget Password</a>
+            		</form>
+            	</div>
+            </div>
+
+           <!-- End Login Form -->
 			<!-- Footer -->
 			<div class="footer w3ls">
 				<div class="container">

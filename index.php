@@ -6,8 +6,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="//" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -16,6 +14,7 @@
 <!-- //js -->
 <!-- pop-up-box -->
 <link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/owl.carousel.min.css">
 <!-- //pop-up-box -->
 <!-- font-awesome icons -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
@@ -30,12 +29,12 @@
 	<div class="header-w3ls-agileinfo">
 		<div class="wthree_agile_top_header">
 			<div class="logo-agileits">
-				<h1><a href="index.html"><span>Student</span>Fund <i class="fa fa-graduation-cap" aria-hidden="true"></i></a></h1>
+				<h1><a href="./"><span>Student</span>Fund <i class="fa fa-graduation-cap" aria-hidden="true"></i></a></h1>
 			</div>
 			<div class="agileits_w3layouts_sign_in">
 				<ul>
-					<li><a class="sign" href="#" data-toggle="modal" data-target="#myModal2" >Sign In</a></li>
-					<li><a class="signup" href="#" data-toggle="modal" data-target="#myModal4" >Sign Up</a></li>
+					<li><a class="sign" href="login">Sign In</a></li>
+					<li><a class="signup" href="register">Register</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
@@ -73,95 +72,6 @@
 		</div>
 	</div>
 		<!-- //header -->
-		<!-- Modal1 -->
-		<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
-			<div class="modal-dialog">
-				<!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<div class="signin-form profile">
-							<h3 class="agileinfo_sign">Sign In</h3>	
-							<div class="login-form">
-								<form action="#" method="post">
-									<input type="text" name="email" placeholder="E-mail" required="">
-									<input type="password" name="password" placeholder="Password" required="">
-									<div class="tp">
-										<input type="submit" value="Sign In">
-									</div>
-								</form>
-							</div>
-							<p><a href="#" data-toggle="modal" data-target="#myModal3" > Don't have an account?</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- //Modal1 -->	
-		<!-- Modal2 -->
-		<div class="modal fade" id="myModal3" tabindex="-1" role="dialog">
-			<div class="modal-dialog">
-				<!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<div class="signin-form profile">
-							<h3 class="agileinfo_sign">Sign Up</h3>
-							<div class="login-form">
-								<form action="#" method="post">
-									<input type="text" name="name" placeholder="Username" required="">
-									<input type="email" name="email" placeholder="Email" required="">
-									<input type="password" name="password" placeholder="Password" required="">
-									<input type="password" name="password" placeholder="Confirm Password" required="">
-									<input type="submit" value="Sign Up">
-								</form>
-							</div>
-							<p><input type="checkbox"><a href="#"> I agree to your terms and condition</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- //Modal2 -->
-		<!-- Modal4 -->
-		<div class="modal fade" id="myModal4" tabindex="-1" role="dialog">
-			<div class="modal-dialog">
-				<!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<div class="signin-form profile">
-							<h3 class="agileinfo_sign">Registration</h3>
-							<div class="login-form">
-								<form action="#" method="post">
-									<div class="left">
-										<p>First Name</p>
-										<input type="text" name="First Name" placeholder="First Name">
-									</div>
-									<div class="right">
-										<p>Last Name</p>
-										<input type="text" name="Last Name" placeholder="Last Name">
-									</div>
-									<input type="email" name="email" placeholder="Email" required="">
-									<div class="address">
-										<input type="password" name="password" required="" placeholder="............">
-										<input type="password" name="password1" required="" placeholder="............">
-										<div class="clearfix"></div>
-									</div>
-									<div class="address">
-										<input type="submit" value="Admission Now">
-										<input type="reset" value="Clear">
-										<div class="clearfix"></div>
-									</div>
-								</form>
-							</div>
-							<p><a href="#"> By clicking Admission, I agree to your terms</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- //Modal4 -->	
 		<!-- banner -->
 		<div class="w3ls_banner_section">
 			<div class="container">
@@ -178,8 +88,8 @@
 
 				<div class="agileits_more">
 					<ul>
-						<li><a href="#" data-toggle="modal" data-target="#myModal4" class="w3ls_banner_more hvr-icon-hang scroll ">Admission</a></li>
-						<li><a href="#" class="hvr-icon-hang" data-toggle="modal" data-target="#myModal">Read More</a></li>
+						<li><a href="login" class="hvr-icon-hang sign">Sign In</a></li>
+						<li><a href="register" class="hvr-icon-hang signup" >Register</a></li>
 					</ul>
 				</div>
 			</div>
@@ -417,6 +327,46 @@
 			</div>
 		</div>
 		<!-- //team -->
+		<div class="container-fluid">
+		    <section id="client" class="client p-5">
+                <div class="row wow animated bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                    <div class="col-md-12">
+                        <div id="clients-list" class="owl-carousel owl-theme">
+                            <div class="client-item">
+                                <img src="images/clients/logo-1.jpg" class="img-fluid" alt="client">
+                            </div>
+                            <div class="client-item">
+                                <img src="images/clients/logo-2.jpg" class="img-fluid" alt="client">
+                            </div>
+                            <div class="client-item">
+                                <img src="images/clients/logo-3.jpg" class="img-fluid" alt="client">
+                            </div>
+                            <div class="client-item">
+                                <img src="images/clients/logo-4.jpg" class="img-fluid" alt="client">
+                            </div>
+                            <div class="client-item">
+                                <img src="images/clients/logo-5.jpg" class="img-fluid" alt="client">
+                            </div>
+                            <div class="client-item">
+                                <img src="images/clients/logo-6.jpg" class="img-fluid" alt="client">
+                            </div>
+                            <div class="client-item">
+                                <img src="images/clients/logo-7.jpg" class="img-fluid" alt="client">
+                            </div>
+                            <div class="client-item">
+                              <img src="images/clients/logo-8.jpg" class="img-fluid" alt="client">
+                            </div>
+                            <div class="client-item">
+                              <img src="images/clients/logo-9.jpg" class="img-fluid" alt="client">
+                            </div>
+                            <div class="client-item">
+                              <img src="images/clients/logo-10.jpg" class="img-fluid" alt="client">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
 			
 			<!-- Footer -->
 			<div class="footer w3ls">
@@ -454,6 +404,9 @@
 			<!-- //js -->
 			<script type="text/javascript" src="js/move-top.js"></script>
 			<script type="text/javascript" src="js/easing.js"></script>
+			<script src="js/owl.carousel.min.js"></script>
+			<script src="js/wow.min.js"></script>
+			<script src="js/app.js"></script> 
 			<script type="text/javascript">
 				jQuery(document).ready(function($) {
 					$(".scroll").click(function(event){

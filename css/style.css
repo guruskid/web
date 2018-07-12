@@ -33,11 +33,154 @@ input[type="submit"],input[type="reset"],.w3l_team_grd,.agileits_w3layouts_featu
     -o-transition: 0.5s ease-in;
     transition:0.5s ease-in;
 }
+
+/*  Nice Work  */
+  .title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+  }
+  .title h2 {
+    color: #003977;
+  }
+  .login1 {
+    height: 250px;
+    margin: 0 auto;
+    /* box-shadow: 0 15px 40px rgba(0,0,0,.5); */
+  }
+  .formBox {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    height: 200px;
+  }
+  .formBox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  .formBox input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .formBox input[type="email"],
+  .formBox input[type="text"],
+  .formBox input[type="Date"],
+  .formBox input[type="address"],
+  .formBox input[type="number"],
+  .formBox input[type="file"],
+  .formBox input[type="password"] 
+  {
+    border: none;
+    border-bottom: 2px solid #003977;
+    outline: none;
+    height: 40px;
+  }
+  .formBox input[type="email"]:focus,
+  .formBox input[type="text"]:focus,
+  .formBox input[type="Date"]:focus,
+  .formBox input[type="address"]:focus,
+  .formBox input[type="number"]:focus,
+  .formBox input[type="file"]:focus,
+  .formBox input[type="password"]:focus {
+    border-bottom: 
+  }
+  .formBox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  .formBox input[type="submit"]:hover {
+    background-color: #003977
+  }
+  .formBox a {
+    font-size: 13px;
+    color: #262626;
+    font-weight: bold;
+  }
+  .register {
+    height: 330px;
+    margin: 0 auto;
+    /* box-shadow: 0 15px 40px rgba(0,0,0,.5); */
+  }
+  .formBox .left {
+    float: left;
+    width: 50%;
+  }
+  .formBox .right {
+    float: right;
+    width: 50%;
+  }
+  .cregister {
+    height: 1280px;
+    margin: 0 auto;
+    /* box-shadow: 0 15px 40px rgba(0,0,0,.5); */
+  }
+  select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #003977;
+  }
+  select p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  .one {
+    margin-bottom: 10px;
+  }
+  .two {
+    margin-top: -19px;
+  }
+  .account {
+    text-align: center;
+  }
+  .clear {
+    clear: both;
+  }
+  .upload {
+    width: 200px;
+    height: 200px;
+  }
+  /* Slider */
+  .client {
+  background: #e9ecef;
+  }
+  .p-5 {
+  padding: 3rem !important;
+  margin-top: 10%;
+  }
+  /* End Slider */
+  @media (max-width: 767px) {
+     .formBox .left {
+    float: none;
+    width: 100%;
+  }
+  .formBox .right {
+    float: none;
+    width: 100%;
+  }
+  .register {
+    height: 500px;
+  }
+  .cregister {
+    height: 2400px; 
+  }
+  }
+  /*  End Work */
+
 /*-- header --*/
 .wthree_agile_top_header{
 	    padding: 1em 3em;
     border-bottom: 1px solid #e6e6e6;
-    background: #e53238;
+    background: #003977;
 }
 i.fa.fa-graduation-cap {
         font-size: 0.8em;
@@ -74,12 +217,20 @@ i.fa.fa-graduation-cap {
 .agileits_w3layouts_sign_in ul li a {
     display: inline-block;
     padding: .5em 2em;
-    background: #000000;
     color: #fff;
     text-decoration: none;
 	letter-spacing: 1px;
     text-transform: uppercase;
 }
+/* Nice One */
+.sign {
+    background-color: green;
+}
+.signup {
+    background-color: red;
+}
+
+/* Nice One End */
 .agileits_w3layouts_sign_in ul li a:hover,.agileits_w3layouts_sign_in ul li a.active{
 	background: #0064d2;
 }
@@ -298,7 +449,6 @@ nav.navbar.navbar-default {
 	font-weight:600;
 	text-transform:capitalize;
 	text-decoration:none;
-	border:1px solid #fff;
 	position: relative;
 	-webkit-transform: translateZ(0);
     transform: translateZ(0);
@@ -497,7 +647,6 @@ select.form-control.two {
     outline: none;
     padding: 0.8em 0;
     width:49%;
-    text-align: center;
     font-size: 1em;
     margin-top: 1em;
     border: none;
@@ -508,7 +657,12 @@ select.form-control.two {
     box-shadow: 0px 2px 1px rgba(28, 28, 29, 0.42);
 	float:left;
 	margin-right:2%;
-	
+}
+.address input[type="text"], .address input[type="password"] {
+  width: 49%;
+  float: left;
+  margin-right: 1%;
+  border: none;
 }
 .address input[type="reset"] {
 	margin-right:0;
@@ -522,7 +676,6 @@ select.form-control.two {
 /*-- //banner --*/
 .wthree-counter-agile {
     width: 73%;
-     
     margin: 8% auto 8%;
 }
 /*-- banner-bottom --*/
@@ -730,7 +883,7 @@ span.simply-amount {
 	    font-size: 2.5em;
     line-height: 0;
     font-weight: 100;
-    color: #fff;
+    color: #000;
 }
 
 span.simply-word {
@@ -739,7 +892,7 @@ span.simply-word {
     font-weight: 500;
     margin-left: 5px;
     text-transform: uppercase;
-    color: #eee;
+    color: #000;
 }
 /*-- //Countdown-Timer --*/
 .modal-header {
