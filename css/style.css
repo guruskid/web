@@ -149,6 +149,11 @@ input[type="submit"],input[type="reset"],.w3l_team_grd,.agileits_w3layouts_featu
     width: 200px;
     height: 200px;
   }
+  .cardp {
+    height: 270px;
+    margin: 0 auto;
+    /* box-shadow: 0 15px 40px rgba(0,0,0,.5); */
+  }
   /* Slider */
   .client {
   background: #e9ecef;
@@ -172,6 +177,11 @@ input[type="submit"],input[type="reset"],.w3l_team_grd,.agileits_w3layouts_featu
   }
   .cregister {
     height: 2400px; 
+  }
+  .cardp {
+    height: 410px;
+    margin: 0 auto;
+    /* box-shadow: 0 15px 40px rgba(0,0,0,.5); */
   }
   }
   /*  End Work */
