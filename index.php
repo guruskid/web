@@ -250,16 +250,8 @@
 								</div>
 							</div>
 							<div class="wthree_team_grid1_pos">
-								<h4>Rabecca Ali</h4>
+								<h4>Vp. Yemi Osinbajo</h4>
 							</div>
-						</div>
-						<div class="wthree_team_grid2">
-							<ul class="social-icons">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							</ul>
 						</div>
 					</div>
 					<div class="col-md-3 wthree_team_grid">
@@ -270,16 +262,8 @@
 								</div>
 							</div>
 							<div class="wthree_team_grid1_pos">
-								<h4>Rosy Carl </h4>
+								<h4>Mallam Adamu Adamu</h4>
 							</div>
-						</div>
-						<div class="wthree_team_grid2">
-							<ul class="social-icons">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							</ul>
 						</div>
 					</div>
 					<div class="col-md-3 wthree_team_grid">
@@ -290,16 +274,8 @@
 								</div>
 							</div>
 							<div class="wthree_team_grid1_pos">
-								<h4>David Martin</h4>
+								<h4>Is-haq Oloyede</h4>
 							</div>
-						</div>
-						<div class="wthree_team_grid2">
-							<ul class="social-icons">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							</ul>
 						</div>
 					</div>
 					<div class="col-md-3 wthree_team_grid">
@@ -310,16 +286,8 @@
 								</div>
 							</div>
 							<div class="wthree_team_grid1_pos">
-								<h4>Reena Scot</h4>
+								<h4>Prof. Ayo Banjo</h4>
 							</div>
-						</div>
-						<div class="wthree_team_grid2">
-							<ul class="social-icons">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							</ul>
 						</div>
 					</div>
 					<div class="clearfix"> </div>
