@@ -274,7 +274,7 @@
 								</div>
 							</div>
 							<div class="wthree_team_grid1_pos">
-								<h4>Is-haq Oloyede</h4>
+								<h4>Prof. Is-haq Oloyede [JAMB]</h4>
 							</div>
 						</div>
 					</div>
@@ -286,7 +286,7 @@
 								</div>
 							</div>
 							<div class="wthree_team_grid1_pos">
-								<h4>Prof. Ayo Banjo</h4>
+								<h4>Prof. Ayo Banjo [NUC]</h4>
 							</div>
 						</div>
 					</div>
