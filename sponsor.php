@@ -72,64 +72,7 @@
 			</div>
 		</div>
 	</div>
-		<!-- //header -->
-		<!-- Modal1 -->
-		<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
-			<div class="modal-dialog">
-				<!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<div class="signin-form profile">
-							<h3 class="agileinfo_sign">Sign In</h3>	
-							<div class="login-form">
-								<form action="#" method="post">
-									<input type="text" name="email" placeholder="E-mail" required="">
-									<input type="password" name="password" placeholder="Password" required="">
-									<div class="tp">
-										<input type="submit" value="Sign In">
-									</div>
-								</form>
-							</div>
-							<div class="login-social-grids">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-rss"></i></a></li>
-								</ul>
-							</div>
-							<p><a href="#" data-toggle="modal" data-target="#myModal3" > Don't have an account?</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- //Modal1 -->	
-		<!-- Modal2 -->
-		<div class="modal fade" id="myModal3" tabindex="-1" role="dialog">
-			<div class="modal-dialog">
-				<!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<div class="signin-form profile">
-							<h3 class="agileinfo_sign">Sign Up</h3>
-							<div class="login-form">
-								<form action="#" method="post">
-									<input type="text" name="name" placeholder="Username" required="">
-									<input type="email" name="email" placeholder="Email" required="">
-									<input type="password" name="password" placeholder="Password" required="">
-									<input type="password" name="password" placeholder="Confirm Password" required="">
-									<input type="submit" value="Sign Up">
-								</form>
-							</div>
-							<p><a href="#"> By clicking register, I agree to your terms</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- //Modal2 -->
+		<!-- //header -->	
 		<hr>
 		<!-- team -->
 		<div class="team" id="team">
@@ -147,16 +90,8 @@
 								</div>
 							</div>
 							<div class="wthree_team_grid1_pos">
-								<h4>Rabecca Ali</h4>
+								<h4>Vp. Yemi Osinbajo</h4>
 							</div>
-						</div>
-						<div class="wthree_team_grid2">
-							<ul class="social-icons">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							</ul>
 						</div>
 					</div>
 					<div class="col-md-3 wthree_team_grid">
@@ -167,16 +102,8 @@
 								</div>
 							</div>
 							<div class="wthree_team_grid1_pos">
-								<h4>Rosy Carl </h4>
+								<h4>Mallam Adamu Adamu</h4>
 							</div>
-						</div>
-						<div class="wthree_team_grid2">
-							<ul class="social-icons">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							</ul>
 						</div>
 					</div>
 					<div class="col-md-3 wthree_team_grid">
@@ -187,16 +114,8 @@
 								</div>
 							</div>
 							<div class="wthree_team_grid1_pos">
-								<h4>David Martin</h4>
+								<h4>Prof. Is-haq Oloyede [JAMB]</h4>
 							</div>
-						</div>
-						<div class="wthree_team_grid2">
-							<ul class="social-icons">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							</ul>
 						</div>
 					</div>
 					<div class="col-md-3 wthree_team_grid">
@@ -207,16 +126,8 @@
 								</div>
 							</div>
 							<div class="wthree_team_grid1_pos">
-								<h4>Reena Scot</h4>
+								<h4>Prof. Ayo Banjo [NUC]</h4>
 							</div>
-						</div>
-						<div class="wthree_team_grid2">
-							<ul class="social-icons">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							</ul>
 						</div>
 					</div>
 					<div class="clearfix"> </div>
@@ -270,35 +181,6 @@
 			</script>
 			<!-- start-smoth-scrolling -->
 			<script src="js/jzBox.js"></script>
-			<!-- Countdown-Timer-JavaScript -->
-			<script src="js/simplyCountdown.js"></script>
-			<script>
-				var d = new Date(new Date().getTime() + 948 * 120 * 120 * 2000);
-
-				// default example
-				simplyCountdown('.simply-countdown-one', {
-					year: d.getFullYear(),
-					month: d.getMonth() + 1,
-					day: d.getDate()
-				});
-
-				// inline example
-				simplyCountdown('.simply-countdown-inline', {
-					year: d.getFullYear(),
-					month: d.getMonth() + 1,
-					day: d.getDate(),
-					inline: true
-				});
-
-				//jQuery example
-				$('#simply-countdown-losange').simplyCountdown({
-					year: d.getFullYear(),
-					month: d.getMonth() + 1,
-					day: d.getDate(),
-					enableUtc: false
-				});
-			</script>
-		<!-- //Countdown-Timer-JavaScript -->
 		<!-- smooth scrolling -->
 		<script type="text/javascript">
 			$(document).ready(function() {
